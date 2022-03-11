@@ -5,6 +5,7 @@ export default function Nav(props){
             <a href="#" onClick={() =>props.setCurrentCategory("About")}>About</a>
             <a href="#" onClick={() =>props.setCurrentCategory("Contact")}>Contact</a>
             <a href="#" onClick={() =>props.setCurrentCategory("Projects")}>Projects</a>
+            <a href="#" onClick={() =>props.setCurrentCategory("Resume")}>Resume</a>
         </div>
     )
 }
