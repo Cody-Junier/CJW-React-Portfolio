@@ -3,10 +3,14 @@ import Nav from "./Nav";
 
 export default function Header(props){
     return(
-        <div>
+        <div id="header">
             {/* img of me */}
-            Cody Junier, MERN Developer
-            <Nav setCurrentCategory={props.setCurrentCategory}
+            Cody Junier
+            <div className="subhead">
+                MERN Developer
+            </div>
+            <Nav 
+            setCurrentCategory={props.setCurrentCategory}
         currentCategory={props.currentCategory} />
         </div>
     )

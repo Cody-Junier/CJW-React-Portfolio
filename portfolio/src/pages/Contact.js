@@ -39,7 +39,7 @@ export default function Contact(){
     }
   };
     return(
-        <div>
+        <div className="contactPage">
             <h2>Contact</h2>
             <div>
                 <h3>Send an Email</h3>

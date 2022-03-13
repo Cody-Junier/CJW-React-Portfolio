@@ -4,7 +4,7 @@ export default function About(){
     return(
         
 
-        <div>
+        <div className="me">
             <h2>About Me</h2>
             <p> I'm Cody! I'm an up-n-coming developer, problem solver, team-builder, and positive guy!
                 I'm a Nashville native, which drew me to Vanderbilt Universitys' Coding Bootcamp in October of 2021. I've learned

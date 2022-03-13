@@ -1,38 +1,84 @@
-.App {
+#header {
+  font-size:x-large;
+  text-align: center;
+}
+.subhead{
+  font-size: large;
+}
+
+#nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.active{
+  font-size: x-small;
+}
+.contactPage{
+  border-top: 2px solid rgb(155, 153, 153);
+}
+#projectPage{
+  border-top: 2px solid rgb(155, 153, 153);
+  z-index: 1;
+
+}
+.navActive{
+  border: 5px solid red;
+  z-index: 5;
+  text-decoration: none;
+
+}
+.navInactive{
+  padding: 5px;
+  border: 2px solid rgb(182, 180, 180);
+  border-radius: 5px;
+  border-bottom: none;
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+}
+
+.me {
+  border-top: 2px solid rgb(155, 153, 153);
+}
+.project-card a{
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-card p {
+  width: 100%;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.project-card img{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-card h2{
+  background-color: rgba(41, 92, 92, 0.575);
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  left:0px;
+  top: 5px;
 }
+
+.pic {
+  position: relative;
+  text-align: center;
+}
+
+#projectPage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
