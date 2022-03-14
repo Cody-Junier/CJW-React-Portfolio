@@ -24,12 +24,12 @@ export default function Projects(){
             tech:''
         },
         {
-            title: 'Where Weather',
-            image: './whereweather.png',
-            alt:'example of where wheather functionality',
-            linkDeployed: 'https://cody-junier.github.io/WhereWeather/',
-            linkGithub:'https://github.com/Cody-Junier/WhereWeather',
-            description:'A weather forcasting app based on a city search.',
+            title: 'Shop-Shop',
+            image: './shop.png',
+            alt:'Shop-Shop homepage',
+            linkDeployed: 'https://desolate-sierra-23837.herokuapp.com/',
+            linkGithub:'https://github.com/Cody-Junier/shop-shop',
+            description:'An ecommerce PWA with an integrated payment system.',
             tech:''
         },
         {
@@ -42,12 +42,12 @@ export default function Projects(){
             tech:''
         },
         {
-            title: 'Shop-Shop',
-            image: './shop.png',
-            alt:'Shop-Shop homepage',
-            linkDeployed: 'https://desolate-sierra-23837.herokuapp.com/',
-            linkGithub:'https://github.com/Cody-Junier/shop-shop',
-            description:'An ecommerce PWA with an integrated payment system.',
+            title: 'Where Weather',
+            image: './whereweather.png',
+            alt:'example of where wheather functionality',
+            linkDeployed: 'https://cody-junier.github.io/WhereWeather/',
+            linkGithub:'https://github.com/Cody-Junier/WhereWeather',
+            description:'A weather forcasting app based on a city search.',
             tech:''
         },
         {

@@ -40,16 +40,12 @@ export default function Contact(){
   };
     return(
         <div className="contactPage">
-            <h2>Contact</h2>
             <div>
-                <h3>Send an Email</h3>
-                <form ref={form} onSubmit={sendEmail}>
-                    <label  >Name</label>
-                    <input type="text" name="user_name"  onBlur={handleChange} />
-                    <label > Email</label>
-                    <input type="email" name="user_email" onBlur={handleChange}/>
-                    <label >Message</label>
-                    <textarea name="message" onBlur={handleChange} />
+                <h2>Send me an Email</h2>
+                <form id="contactform" ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="user_name" class="form" placeholder="Name" onBlur={handleChange} />
+                    <input type="email" class="form" name="user_email" placeholder="Email" onBlur={handleChange}/>
+                    <textarea name="message" class="form" placeholder="Message" onBlur={handleChange} />
                     {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
