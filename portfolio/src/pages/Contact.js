@@ -43,9 +43,9 @@ export default function Contact(){
             <div>
                 <h2>Send me an Email</h2>
                 <form id="contactform" ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="user_name" class="form" placeholder="Name" onBlur={handleChange} />
-                    <input type="email" class="form" name="user_email" placeholder="Email" onBlur={handleChange}/>
-                    <textarea name="message" class="form" placeholder="Message" onBlur={handleChange} />
+                    <input type="text" name="user_name" className="form" placeholder="Name" onBlur={handleChange} />
+                    <input type="email" className="form" name="user_email" placeholder="Email" onBlur={handleChange}/>
+                    <textarea name="message" className="form" placeholder="Message" onBlur={handleChange} />
                     {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>

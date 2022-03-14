@@ -1,4 +1,9 @@
 /* Header Styles */
+body{
+  background-color: rgb(214, 214, 157);
+  /*   background-color: #4F7336;
+ */
+}
 #header {
   font-size:x-large;
   text-align: center;
@@ -15,11 +20,13 @@
   left: 0;
   bottom: 0;
   width: 100%;
+  padding: 5px;
   color: white;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-decoration: none;
+  background-color: #a09e24;
 }
 /* Navigation Styles */
 #nav{
@@ -31,18 +38,14 @@
 .active{
   font-size: x-small;
 }
-.contactPage{
-  border-top: 2px solid rgb(155, 153, 153);
-}
-#projectPage{
-  border-top: 2px solid rgb(155, 153, 153);
-  z-index: 1;
 
-}
 .navActive{
-  border: 5px solid red;
+  border: 5px solid #a09e24;
   z-index: 5;
   text-decoration: none;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
 
 }
 .navInactive{
@@ -58,9 +61,10 @@
 /* About Styles */
 #me {
   border-top: 2px solid rgb(155, 153, 153);
+  text-align: center;
+  margin-bottom: 100px;
 }
 #me img{
-  margin-top: 10px;
   width: 100%;
 }
 #me p{
@@ -72,19 +76,26 @@
 #contactform {
   max-width:420px; margin:50px auto;
 }
+.contactPage{
+  border-top: 2px solid rgb(155, 153, 153);
+  background-image: url("./utils/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .contactPage h2{
   text-align: center;
   
 }
 .form {
-  color:white;
+  color:black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
-  border:2px solid #CC6666;
+  background-color: rgba(80, 79, 79, 0.562);
+  border:2px solid #1d4777;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -92,9 +103,11 @@
   box-sizing: border-box;
   outline:0;
 }
-
-#contactform input :focus {
-   border:2px solid #CC4949; 
+.form::placeholder{
+  color: black;
+}
+.form:focus {
+   border:2px solid #a09e24; 
   } 
 
 #contactform textarea {
@@ -102,27 +115,43 @@
   line-height: 150%;
   resize:vertical;}
   
-  #contactform [type="submit"] {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 100%;
-    background:#CC6666;
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:white;
-    font-size:24px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
-  #contactform[type="submit"]:hover { background:#CC4949; }
+#contactform [type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#a09e24;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#contactform[type="submit"]:hover { background:#CC4949; }
+
+.error-text{
+  text-align: center;
+  text-decoration: wavy;
+  font-weight: bolder;
+  color: #eb0000;
+  background-color: black;
+}
 
 /* Projects Styles */
+#projectPage{
+  border-top: 2px solid rgb(155, 153, 153);
+  z-index: 1;
+  background-image: url("./utils/wallpaper.png");
+}
 .project-card a{
   width: 100%;
   text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+  
 }
 
 .project-card p {
@@ -135,6 +164,8 @@
   display: flex;
   flex-direction: column;
   width: 40%;
+  background-color: rgb(214, 214, 157);
+
 }
 
 .project-card img{
@@ -142,12 +173,13 @@
 }
 
 .project-card h2{
-  background-color: rgba(41, 92, 92, 0.575);
+  background-color: #a09e24b0;
   padding: 20px 0px;
   width: 100%;
   left:0px;
   top: 0px;
-  margin-bottom: 0%;
+  margin: 0%;
+  color: black;
   text-decoration: none;
 }
 
@@ -164,3 +196,8 @@
   justify-content: space-around;
 }
 
+@media (max-width:960px) {
+  .project-card {
+    width: 100%;
+  }  
+}
