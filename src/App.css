@@ -78,7 +78,7 @@ body{
 }
 .contactPage{
   border-top: 2px solid rgb(155, 153, 153);
-  background-image: url("./utils/background.png");
+  background-image: url("./utils/images/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -144,7 +144,7 @@ body{
 #projectPage{
   border-top: 2px solid rgb(155, 153, 153);
   z-index: 1;
-  background-image: url("./utils/wallpaper.png");
+  background-image: url("./utils/images/wallpaper.png");
 }
 .project-card a{
   width: 100%;

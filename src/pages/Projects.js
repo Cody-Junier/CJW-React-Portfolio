@@ -1,12 +1,17 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-
+import deep from '../utils/images/deep.png'
+import devspark from '../utils/images/devspark.png'
+import movie from '../utils/images/moviefetch.png'
+import shop from '../utils/images/shop.png'
+import note from '../utils/images/niftynotes.png'
+import weather from '../utils/images/whereweather.png'
 
 export default function Projects(){
     const projectArray = [
         {
             title: 'devSpark',
-            image: './devspark.png',
+            image: devspark,
             alt:'homepage for dev spark',
             linkDeployed: 'https://devsparkio.herokuapp.com/',
             linkGithub:'https://github.com/branjames117/devspark',
@@ -15,7 +20,7 @@ export default function Projects(){
         },
         {
             title: 'Movie Fetch',
-            image: './moviefetch.png',
+            image: movie,
             alt:'homepage for movie fetch',
             linkDeployed: 'https://nicholasconradholzer.github.io/fgdp-GitQuotes/',
             linkGithub:'https://github.com/NicholasConradHolzer/fgdp-GitQuotes',
@@ -24,7 +29,7 @@ export default function Projects(){
         },
         {
             title: 'Shop-Shop',
-            image: './shop.png',
+            image: shop,
             alt:'Shop-Shop homepage',
             linkDeployed: 'https://desolate-sierra-23837.herokuapp.com/',
             linkGithub:'https://github.com/Cody-Junier/shop-shop',
@@ -33,7 +38,7 @@ export default function Projects(){
         },
         {
             title: 'Nifty Notes',
-            image: './niftynotes.png',
+            image: note,
             alt:'Nifty Notes home page',
             linkDeployed: 'https://nifty-notes.herokuapp.com/',
             linkGithub:'https://github.com/Cody-Junier/Nifty-Notes',
@@ -42,7 +47,7 @@ export default function Projects(){
         },
         {
             title: 'Where Weather',
-            image: './whereweather.png',
+            image: weather,
             alt:'example of where wheather functionality',
             linkDeployed: 'https://cody-junier.github.io/WhereWeather/',
             linkGithub:'https://github.com/Cody-Junier/WhereWeather',
@@ -51,7 +56,7 @@ export default function Projects(){
         },
         {
             title: 'Deep-Thoughts',
-            image: './deep.png',
+            image: deep,
             alt:'deep thoughts home page',
             linkDeployed: 'https://infinite-wave-51778.herokuapp.com/',
             linkGithub:'https://github.com/Cody-Junier/deep-thoughts',
