@@ -1,6 +1,6 @@
 # CJW-React-Portfolio
 
-My Professional Portfolio built with React showcases my growth as a developer since starting my coding journey - which as of writing has been 5 and a half months. This portfolio includes a little information about myself, some of the projects I've completed, and a working contact form which sends a message directly to my personal email.
+My Professional Portfolio built with React showcases my growth as a developer since starting my coding journey - which as of writing has been 5 and a half months. This portfolio includes a little information about myself, some of the projects I've completed, and a working contact form which sends a message directly to my personal email. You may visit the deployed site [here](https://cody-junier.github.io/CJW-React-Portfolio/).
 
 ![background for webpage](Screenshot.png)
 
