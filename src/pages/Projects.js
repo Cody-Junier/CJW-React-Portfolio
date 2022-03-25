@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import deep from '../utils/images/deep.png'
+import good from '../utils/images/good.png'
 import devspark from '../utils/images/devspark.png'
 import movie from '../utils/images/moviefetch.png'
 import shop from '../utils/images/shop.png'
@@ -28,6 +28,15 @@ export default function Projects(){
             tech:''
         },
         {
+            title: 'Do-Good',
+            image: good,
+            alt:'ddo good home page',
+            linkDeployed: 'https://do-good-project.herokuapp.com/',
+            linkGithub:'https://github.com/Cody-Junier/Do-Good',
+            description:'Team project: An Altruistic website to suggest a good cause',
+            tech:''
+        },
+        {
             title: 'Shop-Shop',
             image: shop,
             alt:'Shop-Shop homepage',
@@ -52,15 +61,6 @@ export default function Projects(){
             linkDeployed: 'https://cody-junier.github.io/WhereWeather/',
             linkGithub:'https://github.com/Cody-Junier/WhereWeather',
             description:'A weather forcasting app based on a city search.',
-            tech:''
-        },
-        {
-            title: 'Deep-Thoughts',
-            image: deep,
-            alt:'deep thoughts home page',
-            linkDeployed: 'https://infinite-wave-51778.herokuapp.com/',
-            linkGithub:'https://github.com/Cody-Junier/deep-thoughts',
-            description:'A Reddit style blog site',
             tech:''
         }]
     return(
