@@ -5,9 +5,9 @@ export default function Footer(){
         <div id="footer">
             <a href="https://github.com/Cody-Junier">GitHub</a>
             <br></br>
-            <a href="https://www.linkedin.com/in/cody-junier/">linkedin</a>
+            <a href="https://www.linkedin.com/in/cody-junier/">LinkedIn</a>
             <br></br>
-            <a href="https://www.facebook.com/cody.junier/">facebook</a>
+            <a href="https://www.facebook.com/cody.junier/">Facebook</a>
         </div>
     )
 }
