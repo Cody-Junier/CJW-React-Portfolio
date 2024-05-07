@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CJW-React-Portfolio/static/css/main.ba562e42.css",
-    "main.js": "/CJW-React-Portfolio/static/js/main.f0e4c3ec.js",
+    "main.css": "/CJW-React-Portfolio/static/css/main.2ec43a1c.css",
+    "main.js": "/CJW-React-Portfolio/static/js/main.b80b97ba.js",
     "static/js/787.1ed0c42c.chunk.js": "/CJW-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/background.png": "/CJW-React-Portfolio/static/media/background.f2853cae1f3cf53ad049.png",
     "static/media/devspark.png": "/CJW-React-Portfolio/static/media/devspark.873337b895e518ac437e.png",
@@ -13,12 +13,12 @@
     "static/media/whereweather.png": "/CJW-React-Portfolio/static/media/whereweather.88a8da6b02492e7da5af.png",
     "static/media/niftynotes.png": "/CJW-React-Portfolio/static/media/niftynotes.dc9cb5a02184ef2ac38b.png",
     "index.html": "/CJW-React-Portfolio/index.html",
-    "main.ba562e42.css.map": "/CJW-React-Portfolio/static/css/main.ba562e42.css.map",
-    "main.f0e4c3ec.js.map": "/CJW-React-Portfolio/static/js/main.f0e4c3ec.js.map",
+    "main.2ec43a1c.css.map": "/CJW-React-Portfolio/static/css/main.2ec43a1c.css.map",
+    "main.b80b97ba.js.map": "/CJW-React-Portfolio/static/js/main.b80b97ba.js.map",
     "787.1ed0c42c.chunk.js.map": "/CJW-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba562e42.css",
-    "static/js/main.f0e4c3ec.js"
+    "static/css/main.2ec43a1c.css",
+    "static/js/main.b80b97ba.js"
   ]
 }
