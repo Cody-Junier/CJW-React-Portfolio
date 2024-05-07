@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import good from '../utils/images/good.png'
+import good from '../utils/images/Twitter-Api.PNG'
 import devspark from '../utils/images/devspark.png'
 import movie from '../utils/images/moviefetch.png'
 import shop from '../utils/images/shop.png'
@@ -9,6 +9,15 @@ import weather from '../utils/images/whereweather.png'
 
 export default function Projects(){
     const projectArray = [
+        {
+            title: 'Twitter-Mock-Java-API',
+            image: good,
+            alt:'a view of twitter-mock data in PGAdmin',
+            linkDeployed: 'https://github.com/Cody-Junier/Twitter-Mock-Java-API',
+            linkGithub:'https://github.com/Cody-Junier/Twitter-Mock-Java-API',
+            description:'Team project: An implementation of a Twitter-like API using Java and Spring-Boot',
+            tech:''
+        },
         {
             title: 'devSpark',
             image: devspark,
@@ -25,15 +34,6 @@ export default function Projects(){
             linkDeployed: 'https://nicholasconradholzer.github.io/fgdp-GitQuotes/',
             linkGithub:'https://github.com/NicholasConradHolzer/fgdp-GitQuotes',
             description:'A random movie generator to help you decide what to watch.',
-            tech:''
-        },
-        {
-            title: 'Do-Good',
-            image: good,
-            alt:'ddo good home page',
-            linkDeployed: 'https://do-good-project.herokuapp.com/',
-            linkGithub:'https://github.com/Cody-Junier/Do-Good',
-            description:'Team project: An Altruistic website to suggest a good cause',
             tech:''
         },
         {

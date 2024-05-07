@@ -7,7 +7,7 @@ export default function Header(props){
             {/* img of me */}
             Cody Junier
             <div className="subhead">
-                MERN Developer
+                Full-Stack Developer
             </div>
             <Nav 
             setCurrentCategory={props.setCurrentCategory}
