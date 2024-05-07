@@ -72,7 +72,7 @@ body{
   margin-bottom: 100px;
 }
 #me img{
-  width: 100%;
+  width: 50%;
 }
 #me p{
   width: 100%;
@@ -89,6 +89,9 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  animation-name: expandBackground;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
 }
 .contactPage h2{
   text-align: center;
@@ -138,6 +141,16 @@ body{
   font-weight:700;
 }
 #contactform[type="submit"]:hover { background:#CC4949; }
+
+
+@keyframes expandBackground {
+  from {
+      background-size: 0% auto;
+  }
+  to {
+      background-size: 100% auto;
+  }
+}
 
 .error-text{
   text-align: center;
